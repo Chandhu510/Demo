@@ -192,7 +192,7 @@ html,body,h1,h2,h3,h4,h5,h6,div,span,p,a,ul,li,ol,li{font-family:$myFont;margin:
 }
 
 #about{
-   background:#fff;padding:100px 0;
+   background:#f9f9f9;padding:100px 0;
    .container{
 	  h1{color:$PrimaryColor;font-size:30px;padding-bottom:20px;}
 	  p{
@@ -203,7 +203,7 @@ html,body,h1,h2,h3,h4,h5,h6,div,span,p,a,ul,li,ol,li{font-family:$myFont;margin:
 }
 #Products{
    @extend #about;	
-   background-color: #f9f9f9;padding: 100px 0px;
+   background-color: #fff;padding: 100px 0px;
    .container{
 	  .top-div{padding-bottom:70px;}
 	  h3{color:$secondaryColor;padding-bottom:20px;}
@@ -225,10 +225,15 @@ html,body,h1,h2,h3,h4,h5,h6,div,span,p,a,ul,li,ol,li{font-family:$myFont;margin:
    }
 }
 .Products1, .Products3, .Products5{
-	background:#fff !important;
+	background:#f9f9f9 !important;
 }
 .Products2, .Products4{
-	background:#f9f9f9 !important;
+   background:#fff !important;
+}
+#Clients{
+   @extend #about;	
+   background:#fff !important;
+   img{max-height:150px;margin: auto;}
 }
 #contact{
    @extend #about;	
