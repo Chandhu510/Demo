@@ -239,9 +239,16 @@ html,body,h1,h2,h3,h4,h5,h6,div,span,p,a,ul,li,ol,li{font-family:$myFont;margin:
    @extend #about;	
    background-color:#f9f9f9;padding:100px 0;
    .container{
-	 height:500px;
-	  h3{color:$secondaryColor;padding-bottom:20px;}
-	   p{line-height:30px;}
+	height:500px;
+	h3{color:$secondaryColor;padding-bottom:20px;}
+	p{line-height:30px;}
+	.address-sec{
+	  p{
+		padding-bottom:0px;line-height:35px;
+		i{color:$secondaryColor;padding-right:5px;}
+		&.width-left{padding-left:23px;}		
+	  }
+	}
    }
 }
 #footer{

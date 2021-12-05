@@ -82,6 +82,9 @@ html, body, h1, h2, h3, h4, h5, h6, div, span, p, a, ul, li, ol, li { font-famil
 #contact .container { height: 500px; }
 #contact .container h3 { color: #72AF8D; padding-bottom: 20px; }
 #contact .container p { line-height: 30px; }
+#contact .container .address-sec p { padding-bottom: 0px; line-height: 35px; }
+#contact .container .address-sec p i { color: #72AF8D; padding-right: 5px; }
+#contact .container .address-sec p.width-left { padding-left: 23px; }
 
 #footer { background-image: linear-gradient(to right, #121a2f, rgba(20, 41, 65, 0.81)); font-size: 14px; height: 150px; }
 
