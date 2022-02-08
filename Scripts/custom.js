@@ -68,7 +68,7 @@ $(function() {
         }, 1500);
     });
 	// SLIDER
-    $('.owl-carousel').owlCarousel({
+    $('.home-slide').owlCarousel({
       animateOut: 'fadeOut',
       items:1,
       loop:true,
@@ -77,5 +77,32 @@ $(function() {
       smartSpeed: 1000,
     })
     
+    $('.Clients-div').owlCarousel({
+		loop: false,
+		margin: 10,
+		responsiveClass: true,
+		autoplay: false,
+		 autoplayTimeout: 2500,
+		 navText: ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
+		 autoplayHoverPause: false,
+		responsive: {
+		  0: {
+			items: 1,
+			nav: true,
+			dots:false
+		  },
+		  600: {
+			items: 2,
+			nav: true,
+			dots:false
+		  },
+		  1000: {
+			items: 5,
+			nav: true,
+			dots:false,
+			margin: 20
+		  }
+		}
+	})
     
 });

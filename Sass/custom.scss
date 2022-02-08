@@ -233,7 +233,15 @@ html,body,h1,h2,h3,h4,h5,h6,div,span,p,a,ul,li,ol,li{font-family:$myFont;margin:
 #Clients{
    @extend #about;	
    background:#fff !important;
-   img{max-height:150px;margin: auto;}
+   .Clients-div{
+	 .item{
+		 border:1px solid #efefef;height:90px;text-align: -webkit-center;
+		 img{max-height:80px;width: auto;}
+	 }
+	 .owl-next, .owl-prev{
+		 background:#72AF8D; 
+	 }
+   }
 }
 #contact{
    @extend #about;	

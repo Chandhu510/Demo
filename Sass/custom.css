@@ -229,23 +229,23 @@ html, body, h1, h2, h3, h4, h5, h6, div, span, p, a, ul, li, ol, li {
     .slider .owl-theme .item.item-third {
       background-image: url(../Images/slider3.jpg); }
 
-#about, #Products, #contact {
-  background: #fff;
+#about, #Products, #Clients, #contact {
+  background: #f9f9f9;
   padding: 100px 0; }
-  #about .container h1, #Products .container h1, #contact .container h1 {
+  #about .container h1, #Products .container h1, #Clients .container h1, #contact .container h1 {
     color: #299852;
     font-size: 30px;
     padding-bottom: 20px; }
-  #about .container p, #Products .container p, #contact .container p {
+  #about .container p, #Products .container p, #Clients .container p, #contact .container p {
     color: #333;
     font-size: 18px;
     line-height: 25px;
     padding-bottom: 20px; }
-    #about .container p span, #Products .container p span, #contact .container p span {
+    #about .container p span, #Products .container p span, #Clients .container p span, #contact .container p span {
       color: #72AF8D; }
 
 #Products {
-  background-color: #f9f9f9;
+  background-color: #fff;
   padding: 100px 0px; }
   #Products .container .top-div {
     padding-bottom: 70px; }
@@ -274,13 +274,16 @@ html, body, h1, h2, h3, h4, h5, h6, div, span, p, a, ul, li, ol, li {
       height: 45px; }
 
 .Products1, .Products3, .Products5 {
-  background: #fff !important; }
+  background: #f9f9f9 !important; }
 
 .Products2, .Products4 {
-  background: #f9f9f9 !important; }
+  background: #fff !important; }
 
 #Clients {
-  background: #f9f9f9 !important; }
+  background: #fff !important; }
+  #Clients .Clients-div .item {
+    border: 1px solid #ccc;
+    height: 90px; }
 
 #contact {
   background-color: #f9f9f9;
@@ -292,6 +295,14 @@ html, body, h1, h2, h3, h4, h5, h6, div, span, p, a, ul, li, ol, li {
       padding-bottom: 20px; }
     #contact .container p {
       line-height: 30px; }
+    #contact .container .address-sec p {
+      padding-bottom: 0px;
+      line-height: 35px; }
+      #contact .container .address-sec p i {
+        color: #72AF8D;
+        padding-right: 5px; }
+      #contact .container .address-sec p.width-left {
+        padding-left: 23px; }
 
 #footer {
   background-image: linear-gradient(to right, #121a2f, rgba(20, 41, 65, 0.81));
