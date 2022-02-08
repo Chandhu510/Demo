@@ -77,14 +77,23 @@ $(function() {
       smartSpeed: 1000,
     })
     
-    $('.Clients-div').owlCarousel({
-		loop: false,
+    $('.Clients-div').owlCarousel({       
+        margin: 10,
+        items:5,
+        loop:true,       
+        autoplay:true,
+        autoplayTimeout:2000,
+        autoplayHoverPause:true,
+		/*loop: true,
 		margin: 10,
+        items: 5,
 		responsiveClass: true,
-		autoplay: false,
-		 autoplayTimeout: 2500,
-		 navText: ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
-		 autoplayHoverPause: false,
+		autoplay: true,
+		autoplayTimeout: 'fadeOut',
+        smartSpeed: 100,
+		
+		autoplayHoverPause: false,*/
+        navText: ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
 		responsive: {
 		  0: {
 			items: 1,

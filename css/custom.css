@@ -47,7 +47,7 @@ html, body, h1, h2, h3, h4, h5, h6, div, span, p, a, ul, li, ol, li { font-famil
 .slider { height: 600px; width: 100%; background-position: 0% 0px; }
 .slider .owl-theme .owl-dots { position: absolute; top: 50%; right: 2em; justify-content: center; }
 .slider .owl-theme .owl-dots .owl-dot { display: block; }
-.slider .owl-theme .owl-dots .owl-dot span { width: 12px; height: 12px; margin: 7px 10px; border: 2px solid #d9d9d9; background: transparent; display: block; -webkit-backface-visibility: visible; transition: opacity 200ms ease; border-radius: 30px; }
+.slider .owl-theme .owl-dots .owl-dot span { width: 12px; height: 12px; margin: 7px 10px; border: 2px solid #d9d9d9; background: transparent; display: block; -webkit-backface-visibility: visible; backface-visibility: visible; transition: opacity 200ms ease; border-radius: 30px; }
 .slider .owl-theme .owl-dots .owl-dot:hover span, .slider .owl-theme .owl-dots .owl-dot.active span { background-color: #ffffff; border-color: transparent; }
 .slider .owl-theme .item { background-position: inherit; background-repeat: no-repeat; background-attachment: local; background-size: cover; height: 600px; }
 .slider .owl-theme .item .caption { display: flex; justify-content: center; flex-direction: column; text-align: left; background-color: rgba(20, 20, 20, 0.2); height: 100%; color: #fff; cursor: e-resize; padding: 4em 0 0 2em; }
