@@ -78,21 +78,11 @@ $(function() {
     })
     
     $('.Clients-div').owlCarousel({       
-        margin: 10,
-        items:5,
+        margin: 10,        
         loop:true,       
         autoplay:true,
         autoplayTimeout:2000,
-        autoplayHoverPause:true,
-		/*loop: true,
-		margin: 10,
-        items: 5,
-		responsiveClass: true,
-		autoplay: true,
-		autoplayTimeout: 'fadeOut',
-        smartSpeed: 100,
-		
-		autoplayHoverPause: false,*/
+        autoplayHoverPause:true,		
         navText: ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
 		responsive: {
 		  0: {
