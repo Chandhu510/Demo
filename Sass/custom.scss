@@ -157,7 +157,7 @@ html,body,h1,h2,h3,h4,h5,h6,div,span,p,a,ul,li,ol,li{font-family:$myFont;margin:
    }
 }
 .slider{
-  height:600px;width:100%;background-position: 0% 0px;	
+  height:600px;width:100%;background-position: 0% 0px;top:100px;	position: relative;
   .owl-theme{
 	.owl-dots {
        position: absolute;top: 50%;right: 2em;justify-content: center;

@@ -44,7 +44,7 @@ html, body, h1, h2, h3, h4, h5, h6, div, span, p, a, ul, li, ol, li { font-famil
 #home h1 { color: #fff; padding-bottom: 30px; }
 #home h3 { color: #f9f9f9; font-size: 14px; line-height: inherit; letter-spacing: 2px; text-transform: uppercase; margin: 0; }
 
-.slider { height: 600px; width: 100%; background-position: 0% 0px; }
+.slider { height: 600px; width: 100%; background-position: 0% 0px; top: 100px; position: relative; }
 .slider .owl-theme .owl-dots { position: absolute; top: 50%; right: 2em; justify-content: center; }
 .slider .owl-theme .owl-dots .owl-dot { display: block; }
 .slider .owl-theme .owl-dots .owl-dot span { width: 12px; height: 12px; margin: 7px 10px; border: 2px solid #d9d9d9; background: transparent; display: block; -webkit-backface-visibility: visible; backface-visibility: visible; transition: opacity 200ms ease; border-radius: 30px; }

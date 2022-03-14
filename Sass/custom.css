@@ -185,7 +185,9 @@ html, body, h1, h2, h3, h4, h5, h6, div, span, p, a, ul, li, ol, li {
 .slider {
   height: 600px;
   width: 100%;
-  background-position: 0% 0px; }
+  background-position: 0% 0px;
+  border-top: 1px solid #ccc;
+  top: 100px; }
   .slider .owl-theme .owl-dots {
     position: absolute;
     top: 50%;
@@ -201,6 +203,7 @@ html, body, h1, h2, h3, h4, h5, h6, div, span, p, a, ul, li, ol, li {
         background: transparent;
         display: block;
         -webkit-backface-visibility: visible;
+        backface-visibility: visible;
         transition: opacity 200ms ease;
         border-radius: 30px; }
       .slider .owl-theme .owl-dots .owl-dot:hover span, .slider .owl-theme .owl-dots .owl-dot.active span {
@@ -282,8 +285,14 @@ html, body, h1, h2, h3, h4, h5, h6, div, span, p, a, ul, li, ol, li {
 #Clients {
   background: #fff !important; }
   #Clients .Clients-div .item {
-    border: 1px solid #ccc;
-    height: 90px; }
+    border: 1px solid #efefef;
+    height: 90px;
+    text-align: -webkit-center; }
+    #Clients .Clients-div .item img {
+      max-height: 80px;
+      width: auto; }
+  #Clients .Clients-div .owl-next, #Clients .Clients-div .owl-prev {
+    background: #72AF8D; }
 
 #contact {
   background-color: #f9f9f9;
