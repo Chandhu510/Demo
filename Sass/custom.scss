@@ -289,7 +289,7 @@ html,body,h1,h2,h3,h4,h5,h6,div,span,p,a,ul,li,ol,li{font-family:$myFont;margin:
 	  }
    }
 }
-@media only screen and (max-width: 1024px){
+@media only screen and (max-width: 1024px){  
   #home{
 	.getstarted-btn{
 	  padding: 0px 15px;	  
@@ -429,7 +429,12 @@ html,body,h1,h2,h3,h4,h5,h6,div,span,p,a,ul,li,ol,li{font-family:$myFont;margin:
 		   h5{padding-bottom:20px;}
 		}   
 	 }	
-   }   
+   }
+   #contact {
+	.container{
+		height: auto;		
+	}
+  }   
 }
 @media only screen and (max-width: 668px){
   #home{
